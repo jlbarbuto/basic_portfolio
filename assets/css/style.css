@@ -1,30 +1,62 @@
-.top{
-    background-color: #4aaaa5;
-    color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width:250px;
-    padding:15px;
-    float: left;
+body{
+    color: #777777;
+    font-family: 'arial', 'helvetica neue', Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    width: 960px;
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
+    font-size: 24px;
 }
 
 h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
 
-p{
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+.header{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #dddddd;
+    position: fixed;
+    top: 0;
+    height: 83px;
 }
 
-body{
-    background-color: blanchedalmond;
-    padding-left: 5%;
+.miniheader{
+    width: 960px;
+}
+
+#myname{
+    background-color: #4aaaa5;
+    color: white;
+    Padding: 20px;
+    width: 180px;
+    margin: 20px;
+    text-align: center;
+}
+
+.pagelinks{
+    float:right;
+    position: relative;
+    bottom: 68px;
+}
+
+span{
+    margin: 10px;
+}
+
+.aboutme{
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 590px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 90px;
+
 }
 
 #selfie{
@@ -32,38 +64,29 @@ body{
     margin: 10px;
 }
 
-#aboutme{
+.connect{
+    clear: both;
     background-color: #ffffff;
-    width: 650px;
-    padding: 20px;
     border: 2px solid #dddddd;
-}
-
-#pagecontent{
-    width:960px;   
-}
-
-#connect{
-    width: 270px;
-    background-color: #ffffff;
+    width: 210px;
     padding: 20px;
-    margin-top: 20px;
-    border: 2px solid #dddddd;
+    float: right;
+    position: relative;
+    bottom: 288px;
 }
 
-#pagelinks{
-    color: #777777;
+#githubicon{
+    width: 45px;
 }
 
-#copyright{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+.footer{
     background-color: #666666;
-    color: #dddddd;
-    padding: 15px;
+    color: white;
+    width: 100%;
+    padding: 30px;
+    font-size: 10px;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
-    font-size: 12px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }

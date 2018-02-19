@@ -4,25 +4,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Jamie Barbuto's Portfolio</title>
-        <link rel="stylesheet" href="C:\Users\Jamie Barbuto\Desktop\boot_camp\week_1\Homework1\basic_portfolio\assets\css\style.css">
+        <link rel="stylesheet" href="assets\css\reset.css">
+        <link rel="stylesheet" href="assets\css\style.css">
     </head>
 
     <body>
-        <div id="pagecontent">
-            <div id="pagelinks">
-                <!-- Name for the top of page -->
-                <h1 class="top">Jamie Barbuto</h1>
-                <!-- links to other pages -->
-                <h4 id="linkabout">About</h4>
-                <h4 id="linkportfolio">Portfolio</h4>
-                <h4 id="linkcontact">Contact</h4>
+        <div class="pagecontent">
+            <div class="header">
+                <section class="miniheader">
+                    <!-- Name for the top of page -->
+                    <h1 id="myname">Jamie Barbuto</h1>
+                    <!-- links to other pages -->
+                    <h4 class="pagelinks"> <span id="linkabout">About</span> <span id="linkportfolio">Portfolio</span> <span id="linkcontact">Contact</span></h4>
+                </section>        
             </div>
 
-            <div id="aboutme">
+            <div class="aboutme">
                 <!-- about me element -->
                 <h1>About Me</h1>
                 <hr>
-                <img id="selfie" src="C:/Users/Jamie Barbuto/Desktop/boot_camp/week_1/Homework1/basic_portfolio/assets/images/jamie_selfie.JPG" alt="Image of Jamie Barbuto" width="200">
+                <img id="selfie" src="assets/images/jamie_selfie.JPG" alt="Image of Jamie Barbuto" width="200">
                 <p>
                     Hi! I'm Jamie and I am curently learning all the awesome skills it takes to become a full stack web developer!
                     I graduated from North Carolina State Univeresity in May of '16 with a BS in Textile Engineering. I aslo aquired
@@ -37,18 +38,18 @@
                 </p>
             </div>
 
-            <div id="connect">
+            <div class="connect">
                 <!-- connect with me element -->
                 <h2>Connect With Me</h2>
                 <hr>
-                <img src="C:/Users/Jamie Barbuto/Desktop/boot_camp/week_1/Homework1/basic_portfolio/assets/images/github_icon.png" alt="github icon" width="75">
-                <img src="C:/Users/Jamie Barbuto/Desktop/boot_camp/week_1/Homework1/basic_portfolio/assets/images/linkedin_icon.png" alt="linkedin icon" width="75">
-                <img src="C:/Users/Jamie Barbuto/Desktop/boot_camp/week_1/Homework1/basic_portfolio/assets/images/stackoverflow_icon.png" alt="stackoverflow icon" width="70">
+                <img src="assets/images/github_icon.png" alt="github icon" width="65">
+                <img src="assets/images/linkedin_icon.png" alt="linkedin icon" width="65">
+                <img src="assets/images/stackoverflow_icon.png" alt="stackoverflow icon" width="60">
             </div>
 
-            <div>
+            <div class="footer">
                 <!-- copyright element -->
-                <p id="copyright"> &#169 Copyright 2016 Jamie Barbuto</p>
+                <p> &#169 Copyright 2016 Jamie Barbuto</p>
             </div>
         </div>
     </body>
