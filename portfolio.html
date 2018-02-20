@@ -4,35 +4,64 @@
     <head>
         <meta charset="UTF-8">
         <title>Jamie Barbuto's Portfolio</title>
+        <link rel="stylesheet" href="assets\css\reset.css">
+        <link rel="stylesheet" href="assets\css\style.css">
     </head>
 
     <body>
-        <div>
-            <!-- Name for the top of page -->
-            <h1>Jamie Barbuto</h1>
-            <h4>About</h4>
-            <h4>Portfolio</h4>
-            <h4>Contact</h4>
-        </div>
+        <div class="pagecontent">
+            <div class="header">
+                <div class="miniheader">
+                    <!-- Name for the top of page -->
+                    <h1 id="myname">Jamie Barbuto</h1>
+                    <!-- links to other pages -->
+                    <h4 class="pagelinks"> <span id="linkabout">About</span> <span id="linkportfolio">Portfolio</span> <span id="linkcontact">Contact</span></h4>
+                </div>        
+            </div>
 
-        <div>
-            <h1>Portfolio</h1>
-            <h3>Hangman</h3>
-            <h3>RPG Game</h3>
-            <h3>Trivia Game</h3>
-            <h3>Rutgers Info Widget</h3>
-            <h3>Rock Paper Scissors</h3>
-        </div>
+            <div class="portfolio">
+                <h1>Portfolio</h1>
+                
+                <section id="hangman">
+                    Hangman
+                    <img src="assets/images/image1.jpg" alt="Hangman picture" width="150px">
+                </section>
 
-        <div>
-            <h2>Connect With Me</h2>
-            <img src="" alt="github icon">
-            <img src="" alt="linkedin icon">
-            <img src="" alt="stackoverflow icon">
-        </div>
+                <section id="rpg">
+                    RPG Game
+                    <img src="assets/images/image2.jpg" alt="Hangman picture" width="150px">
+                </section>
 
-        <div>
-            <p>Copyright 2016 Jamie Barbuto</p>
+                <section id="trivia">
+                    Trivia Game                    
+                    <img src="assets/images/image3.jpg" alt="Hangman picture" width="150px">
+                </section>
+
+                <section id="widget">
+                    Rutgers Info Widget                    
+                    <img src="assets/images/image4.jpg" alt="Hangman picture" width="150px">
+                </section>
+
+                <section id="rock">
+                    Rock Paper Scissors
+                    <img src="assets/images/image5.jpg" alt="Hangman picture" width="150px">
+                </section>
+  
+            </div>
+
+            <div class="connect">
+                <!-- connect with me element -->
+                <h2>Connect With Me</h2>
+                <hr>
+                <img src="assets/images/github_icon.png" alt="github icon" width="65">
+                <img src="assets/images/linkedin_icon.png" alt="linkedin icon" width="65">
+                <img src="assets/images/stackoverflow_icon.png" alt="stackoverflow icon" width="60">
+            </div>
+
+            <div class="footer">
+                <!-- copyright element -->
+                <p> &#169 Copyright 2016 Jamie Barbuto</p>
+            </div>
         </div>
     </body>
 

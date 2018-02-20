@@ -48,6 +48,7 @@ span{
     margin: 10px;
 }
 
+/* CSS for profile page */
 .aboutme{
     background-color: #ffffff;
     border: 2px solid #dddddd;
@@ -56,13 +57,13 @@ span{
     margin: 20px;
     position: relative;
     top: 90px;
-
 }
 
 #selfie{
     float: left;
-    margin: 10px;
+    margin: 10px 20px 10px 10px;
 }
+/* end CSS for profile page */
 
 .connect{
     clear: both;
@@ -90,3 +91,55 @@ span{
     position: fixed;
     bottom: 0;
 }
+
+/* CSS for Portfolio page*/
+.portfolio{
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 590px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 90px;
+}
+
+section{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    margin: 5px 10px 5px 10px;
+    width: 150px;
+}
+
+#hangman{
+    float: left;
+    position: relative;
+}
+
+#rpg{
+    float: left;
+    position: relative;
+}
+
+#trivia{
+    float: left;
+}
+
+#widget{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+
+#rock{
+    float: left;
+    position: relative;
+    top: 75px;
+}
+
+.portfolio:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end CSS for portfolio page */
