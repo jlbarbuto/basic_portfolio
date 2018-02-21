@@ -116,13 +116,44 @@ section{
     position: relative;
 }
 
+#hangmanheader{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 8px 40px 8px 40.5px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
 #rpg{
     float: left;
     position: relative;
 }
 
+#rpgheader{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 8px 34px 8px 33px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
 #trivia{
     float: left;
+    position: relative;
+}
+
+#triviaheader{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 8px 32px 8px 31.2px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
 }
 
 #widget{
@@ -131,15 +162,34 @@ section{
     top: 75px;
 }
 
+#widgetheader{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 8px 4.5px 8px 4px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
 #rock{
     float: left;
     position: relative;
     top: 75px;
 }
 
+#rockheader{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
 .portfolio:after{
     content: "";
     display: table;
     clear: both;
-}
 /* end CSS for portfolio page */
